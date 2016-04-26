@@ -9,14 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="site.weatherapplication.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView" />
 
     <FrameLayout
         android:layout_width="400dp"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         android:layout_alignParentTop="true"
         android:background="#259ff6"
         android:layout_alignParentStart="true"
@@ -58,12 +54,11 @@
             android:textSize="30dp"
             android:textIsSelectable="false" />
     </FrameLayout>
-
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/frameLayout" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameinfo"
+        android:layout_below="@+id/frameLayout">
+    </FrameLayout>
 
 </RelativeLayout>
