@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WeatherApplication</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_default">Pereira,CO</string>
 </resources>
