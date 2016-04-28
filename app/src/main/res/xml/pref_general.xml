@@ -6,4 +6,10 @@
         android:defaultValue="@string/pref_location_default"
         android:inputType="text"
         android:singleLine="true" />
+    <ListPreference
+        android:defaultValue="metric"
+        android:entries="@array/pref_units_options"
+        android:entryValues="@array/pref_units_values"
+        android:key="units"
+        android:title="Temparature Units" />
 </PreferenceScreen>
