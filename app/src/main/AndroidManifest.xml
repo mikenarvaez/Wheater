@@ -27,6 +27,8 @@
 
         <activity android:name=".DetailActivity"></activity>
         <activity android:name=".SettingsActivity"></activity>
+        <provider android:name=".WeatherProvider"
+            android:authorities="site.weatherapplication"></provider>
     </application>
 
 </manifest>
